@@ -4,7 +4,7 @@ import { Component, signal } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <div class="header">
+    <div class="flex justify-content-center ">
       {{title()}}
 </div>
   `,
